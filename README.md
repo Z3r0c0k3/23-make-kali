@@ -1,7 +1,8 @@
 # 리눅스, Docker 수업
 ## 1.  Kali Linux 설치
 - VirtualBox 설치. [virtualbox 홈페이지](https://virtualbox.org)
-- kali linux vm 이미지 파일 다운로드 [이미지 파일 미러페이지](https://drive.google.com/file/d/10P771U_CcMuqZbE3_jfk2Etn6O5KmZEx/view/) [kali 공홈](https://kali.org/)
+- kali linux vm 이미지 파일 다운로드 [이미지 파일 미러페이지](https://drive.google.com/file/d/10P771U_CcMuqZbE3_jfk2Etn6O5KmZEx/view/),
+ [kali 공홈](https://kali.org/)
 - 압축 풀고 .vbox파일 실행
 ## 2.  CLI 환경 적용
 - 터미널 실행
