@@ -27,43 +27,43 @@
 	- rmdir은 디렉토리를 삭제하는 명령어입니다. 예를 들면, rmdir mydir는 mydir이라는 이름의 디렉토리를 삭제하는 명령어입니다. 하지만 해당 디렉토리에 파일이 존재하면 삭제가 불가능합니다.
 	```sh
 	rmdir [삭제할 디렉토리]
-```
+	```
 - cp 명령어
 	- cp는 파일을 복사하는 명령어입니다. 예를 들면, cp file1.txt file2.txt는 file1.txt 파일을 file2.txt 파일로 복사하는 명령어입니다.
 	```sh
 	cp [복사하거나 이름을 바꿀 파일명] [붙여넣기 할 경로, 변경할 이름]
-```
+	```
 - mv 명령어
 	- mv는 파일을 이동하거나 이름을 변경하는 명령어입니다. 예를 들면, mv file1.txt /home/user/Downloads는 file1.txt 파일을 /home/user/Downloads 디렉토리로 이동하는 명령어입니다. 또한, mv file1.txt file2.txt는 file1.txt 파일을 file2.txt 파일로 이름을 변경하는 명령어입니다.
 	```sh
 	mv [옮기거나 이름을 바꿀 파일명] [붙여넣기 할 경로, 변경할 이름]
-```
+	```
 - rm 명령어
 	- rm은 파일, 폴더을 삭제하는 명령어입니다. 예를 들면, rm file1.txt는 file1.txt 파일을 삭제하는 명령어입니다. 폴더를 삭제할 때 내부에 파일이 있을시 오류가 발생합니다. 이를 무시하고 삭제하기 위해선 옵션 '-rm'을 넣어 사용하면 됩니다.
 	```sh
 	rm [옵션] [파일명이나 폴더명]
-```
+	```
 - chmod 명령어
 	- chmod는 파일 또는 디렉토리의 권한을 변경하는 명령어입니다. 예를 들면, chmod 755 file1.txt는 file1.txt 파일의 권한을 rwxr-xr-x로 변경하는 명령어입니다. chmod 명령어에는 다양한 옵션이 존재하며, 권한을 숫자로 표현할 수도 있습니다.
 	```sh
 	chmod [권한] [파일명이나 폴더명]
-```
+	```
 - chown 명령어
 	- chown은 파일 또는 디렉토리의 소유자를 변경하는 명령어입니다. 예를 들면, chown user1 file1.txt는 file1.txt 파일의 소유자를 user1으로 변경하는 명령어입니다.
 	```sh
 	chown [유저명] [파일명 및 폴더명]
-```
+	```
 - grep 명령어
 	- grep은 파일 내에서 특정한 문자열을 검색하는 명령어입니다. 예를 들면, grep "hello" file1.txt는 file1.txt 파일에서 "hello" 문자열을 검색하는 명령어입니다.
 	```sh
 	grep [특정 문자열] [문자열을 찾을 파일명]
-```
+	```
 - wget 명령어
 	- wget은 인터넷에서 파일을 다운로드하는 명령어입니다. 예를 들면, 
 	  wget  [http://example.com/file1.txt](http://example.com/file1.txt) 파일을 다운로드하는 명령어입니다.
 	  ```sh
 	  wget [다운로드 받을 주소]
-```
+	```
 
 ## 5.  Docker 설치 및 사용
 ### Docker 설치
