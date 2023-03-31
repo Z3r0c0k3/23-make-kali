@@ -61,7 +61,7 @@
 - wget 명령어
 	- wget은 인터넷에서 파일을 다운로드하는 명령어입니다. 예를 들면, 
 	  wget  [http://example.com/file1.txt](http://example.com/file1.txt) 파일을 다운로드하는 명령어입니다.
-	  ```sh
+	```sh
 	  wget [다운로드 받을 주소]
 	```
 
