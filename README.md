@@ -20,7 +20,8 @@
 -  pwd 명령어
 	- pwd는 현재 위치한 디렉토리의 경로를 출력하는 명령어입니다.
 - mkdir 명령어 
-	- mkdir은 디렉토리를 생성하는 명령어입니다. 예를 들면, mkdir mydir는 mydir이라는 이름의 디렉토리를 생성하는 명령어입니다.
+	- mkdir은 디렉토리를 생성하는 명령어입니다. 예를 들면, 
+	  mkdir mydir는 mydir이라는 이름의 디렉토리를 생성하는 명령어입니다.
 	``` sh
 	mkdir [생성할 디렉토리의 이름]
 	```
@@ -30,32 +31,42 @@
 	rmdir [삭제할 디렉토리]
 	```
 - cp 명령어
-	- cp는 파일을 복사하는 명령어입니다. 예를 들면, cp file1.txt file2.txt는 file1.txt 파일을 file2.txt 파일로 복사하는 명령어입니다.
+	- cp는 파일을 복사하는 명령어입니다. 예를 들면, 
+	  cp file1.txt file2.txt는 file1.txt 파일을 file2.txt 파일로 복사하는 명령어입니다.
 	```sh
 	cp [복사하거나 이름을 바꿀 파일명] [붙여넣기 할 경로, 변경할 이름]
 	```
 - mv 명령어
-	- mv는 파일을 이동하거나 이름을 변경하는 명령어입니다. 예를 들면, mv file1.txt /home/user/Downloads는 file1.txt 파일을 /home/user/Downloads 디렉토리로 이동하는 명령어입니다. 또한, mv file1.txt file2.txt는 file1.txt 파일을 file2.txt 파일로 이름을 변경하는 명령어입니다.
+	- mv는 파일을 이동하거나 이름을 변경하는 명령어입니다. 예를 들면, 
+	  mv file1.txt /home/user/Downloads는 file1.txt 파일을 /home/user/Downloads 디렉토리로 이동하는 명령어입니다. 
+	  또한, mv file1.txt file2.txt는 file1.txt 파일을 file2.txt 파일로 이름을 변경하는 명령어입니다.
 	```sh
 	mv [옮기거나 이름을 바꿀 파일명] [붙여넣기 할 경로, 변경할 이름]
 	```
 - rm 명령어
-	- rm은 파일, 폴더을 삭제하는 명령어입니다. 예를 들면, rm file1.txt는 file1.txt 파일을 삭제하는 명령어입니다. 폴더를 삭제할 때 내부에 파일이 있을시 오류가 발생합니다. 이를 무시하고 삭제하기 위해선 옵션 '-rm'을 넣어 사용하면 됩니다.
+	- rm은 파일, 폴더을 삭제하는 명령어입니다. 예를 들면, |
+	   rm file1.txt는 file1.txt 파일을 삭제하는 명령어입니다. 
+	   폴더를 삭제할 때 내부에 파일이 있을시 오류가 발생합니다.
+	   이를 무시하고 삭제하기 위해선 옵션 '-rm'을 넣어 사용하면 됩니다.
 	```sh
 	rm [옵션] [파일명이나 폴더명]
 	```
 - chmod 명령어
-	- chmod는 파일 또는 디렉토리의 권한을 변경하는 명령어입니다. 예를 들면, chmod 755 file1.txt는 file1.txt 파일의 권한을 rwxr-xr-x로 변경하는 명령어입니다. chmod 명령어에는 다양한 옵션이 존재하며, 권한을 숫자로 표현할 수도 있습니다.
+	- chmod는 파일 또는 디렉토리의 권한을 변경하는 명령어입니다. 예를 들면, 
+	  chmod 755 file1.txt는 file1.txt 파일의 권한을 rwxr-xr-x로 변경하는 명령어입니다. 
+	  chmod 명령어에는 다양한 옵션이 존재하며, 권한을 숫자로 표현할 수도 있습니다.
 	```sh
 	chmod [권한] [파일명이나 폴더명]
 	```
 - chown 명령어
-	- chown은 파일 또는 디렉토리의 소유자를 변경하는 명령어입니다. 예를 들면, chown user1 file1.txt는 file1.txt 파일의 소유자를 user1으로 변경하는 명령어입니다.
+	- chown은 파일 또는 디렉토리의 소유자를 변경하는 명령어입니다. 예를 들면, 
+	  chown user1 file1.txt는 file1.txt 파일의 소유자를 user1으로 변경하는 명령어입니다.
 	```sh
 	chown [유저명] [파일명 및 폴더명]
 	```
 - grep 명령어
-	- grep은 파일 내에서 특정한 문자열을 검색하는 명령어입니다. 예를 들면, grep "hello" file1.txt는 file1.txt 파일에서 "hello" 문자열을 검색하는 명령어입니다.
+	- grep은 파일 내에서 특정한 문자열을 검색하는 명령어입니다. 예를 들면,
+	  grep "hello" file1.txt는 file1.txt 파일에서 "hello" 문자열을 검색하는 명령어입니다.
 	```sh
 	grep [특정 문자열] [문자열을 찾을 파일명]
 	```
@@ -65,7 +76,19 @@
 	```sh
 	  wget [다운로드 받을 주소]
 	```
-
+* apt 명령어
+	* apt는 데비안 계열 리눅스 운영체제의 패키지 관리 명령어입니다. 예를 들면. 
+	  apt update 패키지 관리자를 이용해 리눅스 내에 설치된 프로그램을 업데이트 시키는 명령어 입니다.
+	```sh
+	  apt [update|install] [다운받을 패키지 명]
+	```
+* sudo 명령어
+	* sudo는 실행하려는 명령어의 실행 권한을 높일 (root) 떄 사용하는 명령어입니다.  예를 들면,
+	  sudo apt update root권한으로 apt update를 실행하는 명령어 입니다.
+	  sudoer file에 유져가 추가되어 있어야만 가능합니다.
+	```sh
+	sudo [실행할 명령어]
+	```
 ## 5.  Docker 설치 및 사용
 ### Docker 설치
 -  apt 업데이트 및 필요 패키지 설치
